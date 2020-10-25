@@ -83,14 +83,14 @@
   border: 2px solid #000;
 }
 /*
- * 左眼在左边（废话）
+ * 先画一个左眼
  */
 .eye.left{
   right: 50%;
   margin-right: 90px;
 }
 /*
- * 右眼在右边（废话）
+ * 再画一个右眼
  */
 .eye.right{
   left: 50%;
@@ -120,7 +120,7 @@
   margin-left: 116px;
 }
 /*
- * 上嘴唇
+ * 皮卡丘的上嘴唇
  */
 .upperLip{
   height: 25px;
@@ -145,7 +145,7 @@
   transform: rotate(20deg);
 }
 /*
- * 下嘴唇
+ * 皮卡丘的下嘴唇
  */
 .lowerLip-wrapper{
   bottom: 0;
@@ -167,7 +167,7 @@
   overflow: hidden;
 }
 /*
- * 小舌头
+ * 皮卡丘的舌头
  */
 .lowerLip::after{
   content: '';
@@ -181,7 +181,7 @@
   border-radius: 50px;
 }
 /*
- * 好了，这只皮卡丘送给你
+ * 画完了
  */
 `
     writeCode('', code)
